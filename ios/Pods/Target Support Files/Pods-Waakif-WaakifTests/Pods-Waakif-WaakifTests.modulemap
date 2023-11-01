@@ -1,0 +1,6 @@
+module Pods_Waakif_WaakifTests {
+  umbrella header "Pods-Waakif-WaakifTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
