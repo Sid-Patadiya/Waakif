@@ -1,67 +1,26 @@
 import React, {useEffect} from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
+import Route from './src/Navigation/Route/Route';
+import {Color} from './src/constant/Color';
 
-// type SectionProps = PropsWithChildren<{
-//   title: string;
-// }>;
-
-// function Section({children, title}: SectionProps): JSX.Element {
-//   const isDarkMode = useColorScheme() === 'dark';
-//   return (
-//     <View style={styles.sectionContainer}>
-//       <Text
-//         style={[
-//           styles.sectionTitle,
-//           {
-//             color: isDarkMode ? Colors.white : Colors.black,
-//           },
-//         ]}>
-//         {title}
-//       </Text>
-//       <Text
-//         style={[
-//           styles.sectionDescription,
-//           {
-//             color: isDarkMode ? Colors.light : Colors.dark,
-//           },
-//         ]}>
-//         {children}
-//       </Text>
-//     </View>
-//   );
-// }
-
-function App(): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
+export default function App(): JSX.Element {
   useEffect(() => {
     SplashScreen.hide();
   }, []);
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <View>
-        <Text>hello</Text>
-      </View>
+    <SafeAreaView style={styles.container}>
+      <StatusBar barStyle={'light-content'} backgroundColor={Color.white} />
+      <Route />
     </SafeAreaView>
   );
 }
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: Color.white,
+    flex: 1,
+  },
+});

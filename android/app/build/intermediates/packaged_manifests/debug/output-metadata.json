@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.Waakif",
+  "applicationId": "com.waakif",
   "variantName": "debug",
   "elements": [
     {
