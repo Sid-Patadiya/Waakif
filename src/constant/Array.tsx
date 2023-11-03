@@ -1,4 +1,4 @@
-import {Images} from './Image';
+import {Icons, Images} from './Image';
 
 export const onBoarding = [
   {
@@ -24,19 +24,27 @@ export const onBoarding = [
   },
 ];
 
-export const drawer = [
-  // {name: 'Appointment', image: Icons.appointment},
-  // {name: 'Test Bookings', image: Icons.test_booking},
-  // {name: 'Orders', image: Icons.orders},
-  // {name: 'Consultations', image: Icons.consultations},
-  // {name: 'My doctors', image: Icons.my_doctore},
-  // {name: 'Medical records', image: Icons.medical_record},
-  // {name: 'My Insurance Policy', image: Icons.my_insurance},
-  // {name: 'Setting', image: Icons.settings},
+export const offerHeader = [
+  {id: 1, name: 'Food', image: Icons.Food},
+  {id: 2, name: 'Entertainment', image: Icons.Entertainment},
+  {id: 3, name: 'Education', image: Icons.Education},
 ];
 
-export const offerHeader = [
-  {id: 1, name: 'Food', image: Images.Food},
-  {id: 2, name: 'Entertainment', image: Images.Entertainment},
-  {id: 3, name: 'Education', image: Images.Education},
+export const offersData = [
+  {
+    id: 1,
+
+    title: 'Food',
+    image: Images.Rectangle1,
+  },
+  {
+    id: 2,
+    title: 'Entertainment',
+    image: Images.Rectangle2,
+  },
+  {
+    id: 3,
+    title: 'Education',
+    image: Images.Rectangle3,
+  },
 ];

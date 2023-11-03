@@ -3,7 +3,7 @@ import {Image, StyleSheet, View} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import {AppStack} from '../../../constant/String';
-import {Images} from '../../../constant/Image';
+import {Icons, Images} from '../../../constant/Image';
 import {Color} from '../../../constant/Color';
 import Profile from '../../../Screen/Profile/Profile';
 import Offers from '../../../Screen/Offers/Offers';
@@ -29,9 +29,9 @@ export default function TabNavigator(): JSX.Element {
         tabBarIcon: ({focused}) => {
           let iconName;
           if (route.name === AppStack.Offers) {
-            iconName = focused ? Images.offers : Images.offersGray;
+            iconName = focused ? Icons.offers : Icons.offersGray;
           } else if (route.name === AppStack.Profile) {
-            iconName = focused ? Images.profile : Images.profileGray;
+            iconName = focused ? Icons.profile : Icons.profileGray;
           }
           return (
             <View>

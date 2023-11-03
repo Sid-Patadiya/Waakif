@@ -1,11 +1,4 @@
-import {
-  FlatList,
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {FlatList, Image, Text, TouchableOpacity, View} from 'react-native';
 import React, {useRef, useState} from 'react';
 import HeaderView from '../../component/HeaderView';
 import SearchInput from '../../component/SearchInput';
@@ -13,7 +6,7 @@ import {Placeholder} from '../../constant/String';
 import {offerHeader} from '../../constant/Array';
 import {scale} from '../../constant/Scaling';
 import {Color} from '../../constant/Color';
-import {Fonts} from '../../constant/Font';
+import {styles} from './styles';
 
 export default function Offers(): JSX.Element {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -71,30 +64,9 @@ export default function Offers(): JSX.Element {
             showsHorizontalScrollIndicator={false}
           />
         </View>
+
+        <View>{/* <FlatList /> */}</View>
       </View>
     </HeaderView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {flex: 1},
-  header_container: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: Color.white_two,
-    borderRadius: scale(30),
-    marginHorizontal: scale(5),
-    padding: scale(10),
-    borderWidth: 2,
-  },
-  header_Image: {
-    height: scale(20),
-    width: scale(20),
-  },
-  header_Text: {
-    color: Color.black,
-    fontFamily: Fonts.Medium,
-    fontSize: scale(17),
-    marginLeft: scale(10),
-  },
-});

@@ -1,8 +1,8 @@
-import {Image, StyleSheet, Text, TextInput, View} from 'react-native';
+import {Image, StyleSheet, TextInput, View} from 'react-native';
 import React, {PropsWithChildren} from 'react';
 import {Color} from '../constant/Color';
 import {scale} from '../constant/Scaling';
-import {Images} from '../constant/Image';
+import {Icons} from '../constant/Image';
 import {Fonts} from '../constant/Font';
 
 type SectionProps = PropsWithChildren<{
@@ -26,7 +26,7 @@ export default function SearchInput({
     <View style={styles.container}>
       {searchIcon && (
         <Image
-          source={Images.search}
+          source={Icons.search}
           style={styles.imageStyle}
           resizeMode="contain"
         />

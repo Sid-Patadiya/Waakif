@@ -11,7 +11,7 @@ import {
 import React, {PropsWithChildren} from 'react';
 import {Color} from '../constant/Color';
 import {height, scale, width} from '../constant/Scaling';
-import {Images} from '../constant/Image';
+import {Images, Icons} from '../constant/Image';
 import {Fonts} from '../constant/Font';
 
 type SectionProps = PropsWithChildren<{}>;
@@ -33,7 +33,7 @@ export default function HeaderView({children}: SectionProps) {
 
           <View style={styles.locationContainer}>
             <Image
-              source={Images.location}
+              source={Icons.location}
               style={styles.location}
               resizeMode="contain"
             />
@@ -43,7 +43,7 @@ export default function HeaderView({children}: SectionProps) {
         <View style={[styles.rowView, {flex: 0.9}]}>
           <View style={[styles.rowView, styles.coinView]}>
             <Image
-              source={Images.coin}
+              source={Icons.coin}
               style={styles.coinImage}
               resizeMode="contain"
             />
@@ -51,14 +51,14 @@ export default function HeaderView({children}: SectionProps) {
           </View>
           <TouchableOpacity onPress={() => {}}>
             <Image
-              source={Images.scan}
+              source={Icons.scan}
               style={styles.imageStyle}
               resizeMode="contain"
             />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => {}}>
             <Image
-              source={Images.notification}
+              source={Icons.notification}
               style={styles.imageStyle}
               resizeMode="contain"
             />
