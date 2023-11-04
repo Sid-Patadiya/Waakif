@@ -33,18 +33,103 @@ export const offerHeader = [
 export const offersData = [
   {
     id: 1,
-
-    title: 'Food',
-    image: Images.Rectangle1,
-  },
-  {
-    id: 2,
-    title: 'Entertainment',
+    offer: 'Unlocked',
+    title: 'KFC',
+    offerTitle: 'Get McCheese Burger Meal at Just ₹399 ',
     image: Images.Rectangle2,
   },
   {
-    id: 3,
-    title: 'Education',
+    id: 2,
+    offer: 'Locked',
+    title: 'STARBUCKS',
+    offerTitle: 'Get McCheese Burger Meal at Just ₹399 ',
     image: Images.Rectangle3,
+  },
+  {
+    id: 3,
+    offer: 'Unlocked',
+    title: 'SUBWAY',
+    offerTitle: 'Get McCheese Burger Meal at Just ₹399 ',
+    image: Images.Rectangle4,
+  },
+  {
+    id: 4,
+    offer: 'Locked',
+    title: 'MCDONALD’s',
+    offerTitle: 'Get McCheese Burger Meal at Just ₹399',
+    image: Images.Rectangle1,
+  },
+  {
+    id: 5,
+    offer: 'Locked',
+    title: 'KFC',
+    offerTitle: 'Get McCheese Burger Meal at Just ₹399 ',
+    image: Images.Rectangle2,
+  },
+  {
+    id: 6,
+    offer: 'Locked',
+    title: 'STARBUCKS',
+    offerTitle: 'Get McCheese Burger Meal at Just ₹399 ',
+    image: Images.Rectangle3,
+  },
+  {
+    id: 7,
+    offer: 'Unlocked',
+    title: 'SUBWAY',
+    offerTitle: 'Get McCheese Burger Meal at Just ₹399 ',
+    image: Images.Rectangle4,
+  },
+  {
+    id: 8,
+    offer: 'Unlocked',
+    title: 'MCDONALD’s',
+    offerTitle: 'Get McCheese Burger Meal at Just ₹399',
+    image: Images.Rectangle1,
+  },
+];
+
+export const ProfileScreenData = [
+  {
+    id: 1,
+    title: 'Support',
+    data: [
+      {
+        id: 1,
+        title: 'FAQ’s',
+        image: Icons.clipboard,
+      },
+      {
+        id: 2,
+        title: 'Support',
+        image: Icons.document,
+      },
+      {
+        id: 3,
+        title: 'Rate Us',
+        image: Icons.star,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Other',
+    data: [
+      {
+        id: 1,
+        title: 'About Waakif',
+        image: Icons.about,
+      },
+      {
+        id: 2,
+        title: 'Terms and Conditions',
+        image: Icons.Terms,
+      },
+      {
+        id: 3,
+        title: "Privacy Policy's",
+        image: Icons.privacyPolicy,
+      },
+    ],
   },
 ];

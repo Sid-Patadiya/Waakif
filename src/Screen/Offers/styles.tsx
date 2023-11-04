@@ -24,4 +24,50 @@ export const styles = StyleSheet.create({
     fontSize: scale(17),
     marginLeft: scale(10),
   },
+  itemImageStyle: {
+    height: scale(70),
+    width: scale(100),
+  },
+  menuItemView: {
+    backgroundColor: Color.white_two,
+    borderRadius: scale(18),
+    borderWidth: 1.5,
+    borderColor: Color.white,
+  },
+  companyText: {
+    color: Color.gray_three,
+    fontFamily: Fonts.Regular,
+    fontSize: scale(12),
+  },
+  lockImage: {
+    height: scale(13),
+    width: scale(10),
+  },
+  lockText: {
+    fontFamily: Fonts.Regular,
+    fontSize: scale(10),
+    marginLeft: scale(2),
+  },
+  descriptionText: {
+    color: Color.black,
+    fontFamily: Fonts.Bold,
+    fontSize: scale(14),
+    width: scale(130),
+    marginTop: scale(10),
+  },
+  menuItemContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  contentContainer: {
+    alignSelf: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    flexWrap: 'wrap',
+  },
 });

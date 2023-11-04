@@ -11,10 +11,14 @@ export const AppStack = {
   TabNavigation: 'TabNavigation',
   Offers: 'Offers',
   Profile: 'Profile',
+  OfferDetailScreen: 'OfferDetailScreen',
 };
 
 export const ButtonName = {
   LetStarted: 'Let’s Get Started',
+  Edit: 'Edit',
+  LogOut: 'Log Out',
+  VisitWebsite: 'Visit Website',
 };
 export const Placeholder = {
   SearchName: 'Search Name',

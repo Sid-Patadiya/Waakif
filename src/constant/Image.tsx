@@ -11,6 +11,16 @@ export const Images = {
   Rectangle3: require('../assets/Images/Rectangle3.png'),
   Rectangle4: require('../assets/Images/Rectangle4.png'),
   Rectangle5: require('../assets/Images/Rectangle5.png'),
+
+  profileFrame: require('../assets/Images/profileFrame.png'),
+  coinView: require('../assets/Images/coinView.png'),
+  orderView: require('../assets/Images/orderView.png'),
+
+  Congratulation: require('../assets/Images/Congratulation.png'),
+  Gift: require('../assets/Images/Gift.png'),
+  background: require('../assets/Images/background.png'),
+  productImage: require('../assets/Images/productImage.png'),
+  productType: require('../assets/Images/productType.png'),
 };
 
 export const Icons = {
@@ -28,4 +38,18 @@ export const Icons = {
   Education: require('../assets/icons/Education.png'),
   Entertainment: require('../assets/icons/Entertainment.png'),
   Food: require('../assets/icons/Food.png'),
+
+  logout: require('../assets/icons/logout.png'),
+  clipboard: require('../assets/icons/clipboard.png'),
+  document: require('../assets/icons/document.png'),
+  about: require('../assets/icons/about.png'),
+  privacyPolicy: require('../assets/icons/privacyPolicy.png'),
+  star: require('../assets/icons/star.png'),
+  Terms: require('../assets/icons/Terms.png'),
+  arrowRight: require('../assets/icons/arrowRight.png'),
+  lock: require('../assets/icons/lock.png'),
+  unlock: require('../assets/icons/unlock.png'),
+  swipeIcon: require('../assets/icons/swipeIcon.png'),
+  Actions: require('../assets/icons/Actions.png'),
+  tickCircle: require('../assets/icons/tick-circle.png'),
 };

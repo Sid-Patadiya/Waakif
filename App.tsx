@@ -12,7 +12,7 @@ export default function App(): JSX.Element {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle={'light-content'} backgroundColor={Color.white} />
+      <StatusBar barStyle={'dark-content'} backgroundColor={Color.white} />
       <Route />
     </SafeAreaView>
   );

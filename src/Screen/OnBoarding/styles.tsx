@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
     fontSize: scale(21),
   },
   sliderDescription: {
-    color: Color.light_black,
+    color: Color.gray_three,
     fontFamily: Fonts.Regular,
     fontSize: scale(14),
     marginTop: scale(10),
